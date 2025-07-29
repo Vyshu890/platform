@@ -26,7 +26,7 @@ function triggerDeployment() {
     return;
   }
 
-  const backendUrl = "https://deploy-backend-frxx.onrender.com/triggers";
+  const backendUrl = "https://deploy-backend-frxx.onrender.com/trigger";
 
   fetch(backendUrl, {
     method: "POST",
